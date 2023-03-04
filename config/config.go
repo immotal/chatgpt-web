@@ -14,6 +14,7 @@ import (
 type Configuration struct {
 	// gpt apikey
 	ApiKey string `json:"api_key"`
+	ApiUrl string `json:"api_url"`
 	Port   int    `json:"port"`
 	//
 	BotDesc string `json:"bot_desc"`
