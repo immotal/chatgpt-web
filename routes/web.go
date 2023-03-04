@@ -1,9 +1,9 @@
 package routes
 
 import (
-	. "giithub.com/immotal/chatgpt-web/app/http/controllers"
-	"giithub.com/immotal/chatgpt-web/app/middlewares"
 	"github.com/gin-gonic/gin"
+	. "github.com/immotal/chatgpt-web/app/http/controllers"
+	"github.com/immotal/chatgpt-web/app/middlewares"
 )
 
 var chatController = NewChatController()

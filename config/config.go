@@ -3,7 +3,7 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"giithub.com/immotal/chatgpt-web/pkg/logger"
+	"github.com/immotal/chatgpt-web/pkg/logger"
 	"log"
 	"os"
 	"strconv"

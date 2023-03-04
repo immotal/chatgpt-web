@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"giithub.com/immotal/chatgpt-web/config"
-	"giithub.com/immotal/chatgpt-web/pkg/logger"
-	gogpt "giithub.com/immotal/go-gpt3"
 	"github.com/gin-gonic/gin"
+	"github.com/immotal/chatgpt-web/config"
+	"github.com/immotal/chatgpt-web/pkg/logger"
+	gogpt "github.com/immotal/go-gpt3"
 	"net/http"
 	"strings"
 )

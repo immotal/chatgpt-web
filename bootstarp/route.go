@@ -1,8 +1,8 @@
 package bootstarp
 
 import (
-	"giithub.com/immotal/chatgpt-web/routes"
 	"github.com/gin-gonic/gin"
+	"github.com/immotal/chatgpt-web/routes"
 	"sync"
 )
 
