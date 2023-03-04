@@ -32,7 +32,7 @@
 
 `第一种：直接下载二进制(适合对编程不了解的同学)`
 
-> 非技术人员请直接下载release中的[压缩包](https://github.com/869413421/chatgpt-web/releases) ，请根据自己系统以及架构选择合适的压缩包，下载之后直接解压运行。
+> 非技术人员请直接下载release中的[压缩包](https://giithub.com/immotal/chatgpt-web/releases) ，请根据自己系统以及架构选择合适的压缩包，下载之后直接解压运行。
 
 下载之后，在本地解压，即可看到可执行程序，与配置文件：
 
@@ -58,7 +58,7 @@ $ tail -f run.log
 
 ````
 # 获取项目
-$ git clone https://github.com/869413421/chatgpt-web.git
+$ git clone https://giithub.com/immotal/chatgpt-web.git
 
 # 进入项目目录
 $ cd chatgpt-web

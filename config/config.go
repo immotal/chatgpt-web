@@ -3,7 +3,7 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"giithub.com/immotal/chatgpt-web/pkg/logger"
 	"log"
 	"os"
 	"strconv"
@@ -81,7 +81,6 @@ func LoadConfig() *Configuration {
 		if BotDesc != "" {
 			config.BotDesc = BotDesc
 		}
-
 
 		if MaxTokens != "" {
 			max, err := strconv.Atoi(MaxTokens)

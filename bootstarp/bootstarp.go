@@ -1,8 +1,8 @@
 package bootstarp
 
 import (
-	"github.com/869413421/chatgpt-web/config"
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"giithub.com/immotal/chatgpt-web/config"
+	"giithub.com/immotal/chatgpt-web/pkg/logger"
 	"net/http"
 	"strconv"
 )
@@ -31,6 +31,6 @@ func initTemplateDir() {
 // initStaticServer 初始化静态文件处理
 func initStaticServer() {
 	router.StaticFS("/static", http.Dir("static"))
-	router.StaticFile("logo192.png","static/logo192.png")
-	router.StaticFile("logo512.png","static/logo512.png")
+	router.StaticFile("logo192.png", "static/logo192.png")
+	router.StaticFile("logo512.png", "static/logo512.png")
 }

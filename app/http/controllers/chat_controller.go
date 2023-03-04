@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"github.com/869413421/chatgpt-web/config"
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"giithub.com/immotal/chatgpt-web/config"
+	"giithub.com/immotal/chatgpt-web/pkg/logger"
+	gogpt "giithub.com/immotal/go-gpt3"
 	"github.com/gin-gonic/gin"
-	gogpt "github.com/sashabaranov/go-gpt3"
 	"net/http"
 	"strings"
 )
@@ -66,7 +66,7 @@ func (c *ChatController) Completion(ctx *gin.Context) {
 		for _, item := range request.Messages {
 			prompt += item.Content + "/n"
 		}
-		prompt = strings.Trim(prompt,"/n")
+		prompt = strings.Trim(prompt, "/n")
 
 		logger.Info("request prompt is %s", prompt)
 		req := gogpt.CompletionRequest{
